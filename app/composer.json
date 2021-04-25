@@ -1,0 +1,21 @@
+{
+    "name": "mad_harper/ddd-project",
+    "description": "ddd project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alex Kolesnikov",
+            "email": "alex_maykop@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "ext-json": "*",
+      "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
